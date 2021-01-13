@@ -2837,76 +2837,25 @@ id="export-wp-page-to-static-html-js"></script>
                                         <div class="forminator-ui forminator-custom-form forminator-custom-form-403 forminator-design--default  forminator_ajax"
                                           data-forminator-render="0" data-form="forminator-module-403"><br>
                                         </div>
-                                        <form id="forminator-module-403" class="forminator-ui  forminator_ajax"
-                                          action="https://formspree.io/f/xaylbgyz"
-                                          method="post" data-forminator-render="0"
-                                          data-form-id="403" data-design="default"
-                                          data-grid="open" style="display: none;">
-                                          <div class="forminator-response-message"
-                                            aria-hidden="true"></div>
-                                          <div class="forminator-row">
-                                            <div id="text-1" class="forminator-col forminator-col-12 ">
-                                              <div class="forminator-field"><label
-                                                  for="forminator-field-text-1"
-                                                  class="forminator-label">İsim
-                                                  (gerekli) <span class="forminator-required">*</span></label><input
-                                                  name="text-1" value="" placeholder=""
-                                                  id="forminator-field-text-1" class="forminator-input forminator-name--field"
-                                                  data-required="1" type="text"></div>
-                                            </div>
-                                          </div>
-                                          <div class="forminator-row">
-                                            <div id="email-1" class="forminator-col forminator-col-12 ">
-                                              <div class="forminator-field"><label
-                                                  for="forminator-field-email-1"
-                                                  class="forminator-label">Email
-                                                  (gerekli) <span class="forminator-required">*</span></label><input
-                                                  name="email-1" value="" placeholder=""
-                                                  id="forminator-field-email-1"
-                                                  class="forminator-input forminator-email--field"
-                                                  data-required="1" aria-required="true"
-                                                  type="email"></div>
-                                            </div>
-                                          </div>
-                                          <div class="forminator-row">
-                                            <div id="text-2" class="forminator-col forminator-col-12 ">
-                                              <div class="forminator-field"><label
-                                                  for="forminator-field-text-2"
-                                                  class="forminator-label">Konu</label><input
-                                                  name="text-2" value="" placeholder=""
-                                                  id="forminator-field-text-2" class="forminator-input forminator-name--field"
-                                                  data-required="" type="text"></div>
-                                            </div>
-                                          </div>
-                                          <div class="forminator-row">
-                                            <div id="textarea-1" class="forminator-col forminator-col-12 ">
-                                              <div class="forminator-field"><label
-                                                  for="forminator-field-textarea-1"
-                                                  class="forminator-label">Mesajınız</label><textarea
-name="textarea-1" placeholder="" id="forminator-field-textarea-1" class="forminator-textarea"
-height="50" style="min-height:px;"></textarea></div>
-                                            </div>
-                                          </div>
-                                          <input name="referer_url" value="" type="hidden">
-                                          <div class="forminator-row forminator-row-last">
-                                            <div class="forminator-col">
-                                              <div id="submit" class="forminator-field"><button
-                                                  class="forminator-button forminator-button-submit">Mesajı
-                                                  Gönder</button></div>
-                                            </div>
-                                          </div>
-                                          <input id="forminator_nonce" name="forminator_nonce"
-                                            value="59bb3e7790" type="hidden"><input
-                                            name="_wp_http_referer" value="/datascience/"
-                                            type="hidden"><input name="form_id"
-                                            value="403" type="hidden"><input name="page_id"
-                                            value="338" type="hidden"><input name="form_type"
-                                            value="default" type="hidden"><input
-                                            name="current_url" value="https://coursefree.ml/datascience/"
-                                            type="hidden"><input name="render_id"
-                                            value="0" type="hidden"><input name="action"
-                                            value="forminator_submit_form_custom-forms"
-                                            type="hidden"></form>
+                                        <!-- modify this form HTML and place wherever you want your form -->
+
+<form
+  action="https://formspree.io/f/xaylbgyz"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
                                       </div>
                                     </div>
                                   </div>
